@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-con {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(32, 32, 32);
+}
+
+.logo {
+  height: 25px;
+}
+
+.social-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.name-img {
+  height: 200px;
+}
+
+.desk-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  padding: 20px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.home {
+  color: rgb(253, 217, 91) !important;
+  border-bottom: 2px solid rgb(253, 217, 91);
+  padding-bottom: 5px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
+
+.navigation li a:hover {
+  color: rgb(253, 217, 91);
+  border-bottom: 2px solid rgb(253, 217, 91);
+  padding-bottom: 5px;
+}
+
+.socials {
+  width: auto;
+}
+
+.title-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.role {
+  width: min-content;
+}
+
+.con h1 {
+  margin: 0;
+  color: white;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.con p {
+  color:rgb(111, 111, 111);
+}
+
+.description {
+  width: 500px;
+}
+
+.button-con {
+  margin-top: 50px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(128, 65, 72);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(253, 217, 91);
+  color: rgb(128, 65, 72);
+}
+
+.message-con {
+  margin-top: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.message-con p {
+  color: rgb(235, 111, 56);
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 8s linear infinite;
+  -webkit-animation: my-animation 8s linear infinite;
+  animation: my-animation 8s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
