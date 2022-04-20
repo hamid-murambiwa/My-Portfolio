@@ -1,0 +1,9 @@
+.projects-con {
+  min-height: 100vh;
+  background-color: rgb(39, 39, 39);
+  padding-top: 30px;
+}
+
+.projects-con h1 {
+  margin: 0;
+}
