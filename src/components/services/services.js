@@ -1,6 +1,6 @@
 import img1 from '../../style/images/machine-learning.png';
 import img2 from '../../style/images/content.png';
-import img3 from '../../style/images/monitor.png';
+import img3 from '../../style/images/game-development.png';
 import img4 from '../../style/images/web-design.png';
 import '../../style/services.css';
 
@@ -35,8 +35,8 @@ function Services() {
                 <img src={img3} alt="Web Development" className="service-img" />
               </div>
               <div className="service-text-con">
-                <h2>Data Analytics</h2>
-                <p>I can help you develop web applications. Check out some of my work in the Projects section.</p>
+                <h2>Game Development</h2>
+                <p>I have good skills in game development, mainly focusing on browser game applications.</p>
               </div>
             </li>
             <li>

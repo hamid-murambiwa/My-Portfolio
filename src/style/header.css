@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 .header-con {
@@ -138,6 +139,7 @@ body {
 }
 
 .message-con p {
+  font-size: larger;
   color: rgb(235, 111, 56);
   /* animation properties */
   -moz-transform: translateX(100%);
