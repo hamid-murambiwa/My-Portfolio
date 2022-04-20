@@ -14,12 +14,17 @@ body {
 }
 
 .social-img {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   margin-right: 10px;
 }
 
+.social-img:hover {
+  transform: scale(1.2);
+}
+
 .name-img {
+  margin-top: 50px;
   height: 200px;
 }
 
@@ -36,7 +41,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
 }
 
 .navigation li {
@@ -127,7 +132,7 @@ body {
 }
 
 .message-con {
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
   overflow: hidden;
 }

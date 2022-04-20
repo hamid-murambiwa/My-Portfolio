@@ -18,10 +18,13 @@ function Header() {
                 <a href="/" className="home">Home</a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
               </li>
               <li>
                 <a href="#contacts">Contacts</a>
@@ -43,7 +46,7 @@ function Header() {
                  <h1>Full Stack Developer</h1>
                </div>
                <div className="description">
-                 <p>I am a Software Enthusiast, I can help you develop web applications. Check out some of my work in the Projects section.</p>
+                 <p>I am a software enthusiast, I can help you develop web applications. Check out some of my work in the Projects section.  If you like what you see and have a project you need coded, don’t hesitate to contact me. I am very excited to work with you!</p>
                </div>
                <div className="button-con">
                  <a href="https://docs.google.com/document/d/1su_8dOXXbVWGEZI9DWnnnrtGnt0GFk-ZXmpCF097GYg/edit" className="button">
