@@ -6,7 +6,7 @@ import '../../style/services.css';
 
 function Services() {
   return (
-    <div className="services-con">
+    <div id="services" className="services-con">
         <div className="heading-con">
           <h1>WHAT I DO</h1>
         </div>

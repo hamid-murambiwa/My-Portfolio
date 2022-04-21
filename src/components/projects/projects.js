@@ -60,7 +60,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div id='y' className="projects-con">
+    <div id='projects' className="projects-con">
       <div className="heading-con">
         <h1>Projects</h1>
       </div>

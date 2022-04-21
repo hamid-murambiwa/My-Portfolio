@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(32, 32, 32);
   padding-top: 30px;
   width: 100vw;
 }
@@ -21,10 +21,11 @@
 
 .grid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
   column-gap: 40px;
   row-gap: 40px;
-  width: 70%;
+  width: auto;
   margin: 0;
   margin-bottom: 100px;
 }
@@ -70,6 +71,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   padding: 0 20px 10px 20px;
   text-align: center;
 }

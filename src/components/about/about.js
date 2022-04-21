@@ -7,7 +7,7 @@ import '../../style/about.css';
 
 function About() {
   return (
-    <div className="about-con">
+    <div id="about" className="about-con">
         <div className="heading-con">
             <h1>About</h1>
         </div>

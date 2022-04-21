@@ -24,10 +24,13 @@ function Header() {
                 <a href="#services">Services</a>
               </li>
               <li>
+                <a href="#publications">Services</a>
+              </li>
+              <li>
                 <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#contacts">Contacts</a>
+                <a href="#contacts">Contact</a>
               </li>
             </nav>
             <div className="socials">
