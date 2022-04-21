@@ -65,16 +65,22 @@ function Projects() {
         <h1>Projects</h1>
       </div>
       <section className="projects-section">
-        <ul>
+        <div className="grid">
         {projects.map(project => (
-          <li style={{backgroundImage: `url(${project.image})`}}>
-              <h2>{project.name}</h2>
-              <p>{project.description}</p>
+          <div className="grid-item">
+            <div className="card-title">
+            <h2>{project.name}</h2>
+            </div>
+            <div className="proj-img-con">
+            <img className="proj-img" src={project.image} alt={project.name} />
+            </div>
+            <div className="proj-info">
+            <p>{project.description}</p>
+            </div>
             <Modal project={project}/>
-          </li>
-          
+          </div>
         ))}
-        </ul>
+        </div>
         </section>
     </div>
   );

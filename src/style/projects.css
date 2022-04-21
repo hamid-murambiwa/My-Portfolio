@@ -1,9 +1,82 @@
 .projects-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-height: 100vh;
   background-color: rgb(39, 39, 39);
   padding-top: 30px;
+  width: 100vw;
 }
 
 .projects-con h1 {
   margin: 0;
+}
+
+.projects-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 40px;
+  row-gap: 40px;
+  width: 70%;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(253, 217, 91);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 15px;
+}
+
+.proj-img {
+  height: 150px;
+  border-radius: 10px;
+}
+
+.btn-modal {
+  font-size: larger;
+  font-weight: bolder;
+  padding: 20px;
+  background-color: rgb(128, 65, 72);
+  color: white;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius:  10px;
+  border-bottom-right-radius:  10px;
+  cursor: pointer;
+}
+
+.proj-img-con {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.proj-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 10px 20px;
+  text-align: center;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
 }
