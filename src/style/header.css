@@ -141,7 +141,6 @@ body {
 .message-con p {
   font-size: larger;
   color: rgb(235, 111, 56);
-  /* animation properties */
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);

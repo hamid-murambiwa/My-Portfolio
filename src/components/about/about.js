@@ -8,6 +8,10 @@ import '../../style/about.css';
 function About() {
   return (
     <div className="about-con">
+        <div className="heading-con">
+            <h1>About</h1>
+        </div>
+      <div class='second-con'>
       <div className="about-img-con">
       <img src={img1} alt="My name" className="n-img" />
       <div className="name-con">
@@ -21,7 +25,6 @@ function About() {
       </div>
     </div>
       <div className="about-text">
-        <h1>About</h1>
         <p>
           Hi! My name is Hamid. I am a student majoring in software development at Microverse Inc. I am interested in both front-end designing and back-end development. I have completed several web projects throughout my course. There, I designed and tested web pages and web applications.  Your team produces industry-leading products in web development, and I would love to be a part of your sustainable work culture. I’d love it if you went through my resume and considered me for an interview.
 
@@ -44,6 +47,7 @@ function About() {
         </ul>
         </p>
       </div>
+    </div>
     </div>
   );
 }

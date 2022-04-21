@@ -11,13 +11,16 @@ function Services() {
           <h1>WHAT I DO</h1>
         </div>
         <div className="services">
+            <div className="s-text-con">
+              <h2>Services</h2>
+            </div>
           <ul>
             <li>
               <div className="service-img-con">
                 <img src={img1} alt="Web Development" className="service-img" />
               </div>
               <div className="service-text-con">
-                <h2>Machine Learning</h2>
+                <h3>Machine Learning</h3>
                 <p>I can write algorithms for website development features. I am familiar with hypothesis testing, data modeling, and mathematics.</p>
               </div>
             </li>
@@ -26,7 +29,7 @@ function Services() {
                 <img src={img2} alt="Web Development" className="service-img" />
               </div>
               <div className="service-text-con">
-                <h2>Article Writing</h2>
+                <h3>Article Writing</h3>
                 <p>I write Software Documentation. Have a look at some of my published articles in the featured section.</p>
               </div>
             </li>
@@ -35,7 +38,7 @@ function Services() {
                 <img src={img3} alt="Web Development" className="service-img" />
               </div>
               <div className="service-text-con">
-                <h2>Game Development</h2>
+                <h3>Game Development</h3>
                 <p>I have good skills in game development, mainly focusing on browser game applications.</p>
               </div>
             </li>
@@ -44,12 +47,60 @@ function Services() {
                 <img src={img4} alt="Web Development" className="service-img" />
               </div>
               <div className="service-text-con">
-                <h2>UI/UX Design</h2>
+                <h3>UI/UX Design</h3>
                 <p>A good developer is a good designer, flexibility means more opportunities. I have elegant skills in UI/UX design.</p>
               </div>
             </li>
           </ul>
         </div>
+        <section className="s-t-con">
+          <div className='skils-con'>
+            <div className='s-t-heading-con'>
+              <h2>Skills</h2>
+            </div>
+            <div className='s-t-text-con'>
+            <ul>
+              <li>JavaScript</li>
+              <li>React/Redux</li>
+              <li>TypeScript</li>
+              <li>BootStrap</li>
+              <li>Ruby</li>
+              <li>Ruby On Rails</li>
+              <li>HTML</li>
+              <li>CSS/SCSS</li>
+              <li>Jest Testing Library</li>
+              <li>React-Testing-Library</li>
+            </ul>
+            <ul>
+              <li>PostgreSql</li>
+              <li>MySql</li>
+              <li>Webpack</li>
+              <li>GitHub / Git / GitFlow</li>
+              <li>Test Driven Development</li>
+              <li>Heruko and Netlify Deployment</li>
+            </ul>
+            </div>
+          </div>
+          <div className='technologies-con'>
+            <div className='s-t-heading-con'>
+              <h2>Technologies</h2>
+            </div>
+            <div className='s-t-text-con'>
+            <ul>
+              <li>Communication</li>
+              <li>Collaboration</li>
+              <li>Teamwork</li>
+              <li>Problem Solving</li>
+              <li>Algorithms</li>
+              <li>Data Structures</li>
+              <li>Strong English ( Written and Verbal )</li>
+              <li>Emotional Intelligence</li>
+              <li>Strong Work Ethic</li>
+              <li>Professionalism</li>
+            </ul>
+            </div>
+          </div>
+        </section>
     </div>
   );
 }

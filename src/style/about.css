@@ -1,10 +1,13 @@
 .about-con {
-  display: flex;
-  align-items: center;
   min-height: 80vh;
   background-color: rgb(39, 39, 39);
   width: 100vw;
   color: white;
+}
+
+.second-con {
+  display: flex;
+  align-items: center;
 }
 
 .about-img-con {
@@ -29,6 +32,7 @@
   width: 50%;
   padding: 50px;
   padding-left: 50px;
+  color: rgb(129, 129, 129);
 }
 
 .about-text ul {
