@@ -2,6 +2,7 @@ import Header from './header/header';
 import Services from './services/services';
 import About from './about/about';
 import Projects from './projects/projects';
+import Contact from './contact/contact';
 
 function AppContainer() {
     return (
@@ -10,6 +11,7 @@ function AppContainer() {
           <About />
           <Services />
           <Projects />
+          <Contact />
         </div>
     );
 }
