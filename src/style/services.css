@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.services-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 85vh;
+  width: 100vw;
+  background-color: rgb(32, 32, 32);
+  padding-top: 50px;
+}
+
+.services-con h2 {
+  color: white;
+}
+
+.heading-con {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.heading-con h1 {
+  margin: 0;
+  color: white;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-text-con {
+  margin-top: 50px;
+  padding-left: 50px;
+}
+
+.services ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 !important;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: auto;
+}
+
+.services ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: rgb(253, 217, 91);
+  padding: 30px;
+  border-radius: 15px;
+  height: auto;
+  width: 20%;
+}
+
+.services ul li:hover {
+  transform: scale(1.05);
+}
+
+.service-img {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.service-img-con {
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+
+.service-text-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.service-text-con h2 {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.service-text-con p {
+  text-align: center;
+}
+
+.s-t-con {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.skils-con {
+  width: 45%;
+}
+
+.s-t-text-con {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(253, 217, 91);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.s-t-text-con ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.technologies-con {
+  width: 45%;
+}
+
+@media screen and (max-width: 370px) {
+  .s-t-text-con ul {
+    padding-left: 25px !important;
+  }
+
+  .s-t-text-con {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services ul {
+    flex-direction: column;
+  }
+
+  .s-t-con {
+    flex-direction: column;
+  }
+  
+  .services ul li {
+    width: 80% !important;
+  }
+
+  .skils-con {
+    width: auto !important;
+    padding: 20px;
+  }
+
+  .technologies-con {
+    width: auto !important;
+    padding: 20px;
+  }
+}

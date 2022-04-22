@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.header-con {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: rgb(32, 32, 32);
+}
+
+.logo {
+  height: 25px;
+}
+
+.social-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.social-img:hover {
+  transform: scale(1.2);
+}
+
+.name-img {
+  margin-top: 100px;
+  height: 200px;
+}
+
+.desk-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  padding: 20px;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.home {
+  color: rgb(253, 217, 91) !important;
+  border-bottom: 2px solid rgb(253, 217, 91);
+  padding-bottom: 5px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
+
+.navigation li a:hover {
+  color: rgb(253, 217, 91);
+  border-bottom: 2px solid rgb(253, 217, 91);
+  padding-bottom: 5px;
+}
+
+.socials {
+  width: auto;
+}
+
+.title-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.role {
+  width: min-content;
+}
+
+.con h1 {
+  margin: 0;
+  color: white;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.con p {
+  color:rgb(111, 111, 111);
+}
+
+.description {
+  width: 500px;
+}
+
+.button-con {
+  margin-top: 50px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(128, 65, 72);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(253, 217, 91);
+  color: rgb(128, 65, 72);
+}
+
+.message-con {
+  margin-top: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.message-con p {
+  font-size: larger;
+  color: rgb(235, 111, 56);
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 8s linear infinite;
+  -webkit-animation: my-animation 8s linear infinite;
+  animation: my-animation 8s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .name-img {
+    height: 70px;
+  }
+
+  .con h1 {
+    font-size: medium;
+  }
+
+  .s-t-text-con {
+
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header-con {
+    min-height: 80vh;
+  }
+
+  .desk-header {
+    display: none;
+  }
+
+  .name-img {
+    height: 100px;
+  }
+
+  .title-con {
+    width: 100%;
+  }
+
+  .con {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    width: auto;
+  }
+
+  .description {
+    width: 200px !important;
+  }
+
+  .mobile-header {
+    display: flex;
+    position: fixed !important;
+    top: 20px;
+    right: 20px;
+  }
+
+  .szh-menu-button {
+    font-size: 24px !important;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  .szh-menu {
+    margin-top: 5px;
+    font-size: larger;
+    border-radius: 10px;
+    height: auto;
+    background-color: rgb(3, 47, 90);
+    width: 60vw;
+  }
+
+  .szh-menu a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+  }
+
+  .szh-menu li:hover {
+    background-color: rgb(195, 168, 69) !important;
+  }
+
+  .szh-menu li {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    padding: 15px 15px 15px 20px;
+  }
+}

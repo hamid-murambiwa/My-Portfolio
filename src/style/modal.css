@@ -1,0 +1,134 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #FBD545;
+    color: black;
+    padding: 14px 28px;
+    border-radius: 15px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    margin: 0;
+    background-color: #FBD545;
+    cursor: pointer;
+    border: none;
+}
+
+.modal-img-con {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.modal-img {
+  height: 220px;
+}
+
+.modal-exit-btn {
+  height: 35px;
+}
+
+.main-modal-content {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.main-modal-content p {
+  margin: 0;
+}
+
+.modal-text-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.modal-tags {
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+  white-space: nowrap;
+}
+
+.modal-tags p {
+  background-color: rgb(111, 66, 251);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin: 10px 10px 0 0 !important;
+}
+
+.modal-link-btn-con {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.modal-link-btn-con a {
+  text-decoration: none;
+  background-color: rgb(128, 65, 72);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 70%;
+    min-width: 100px;
+  }
+  .modal-img {
+    height: 120px;
+  }
+
+  .main-modal-content {
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .modal-text-con {
+    align-items: center !important;
+    width: 100%;
+  }
+
+  .m-d {
+    margin-left: 6% !important;
+  }
+
+  .modal-tags {
+    margin-left: 10%;
+  }
+}
