@@ -104,3 +104,31 @@ body.active-modal {
   border-radius: 10px;
   margin: 20px 20px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 70%;
+    min-width: 100px;
+  }
+  .modal-img {
+    height: 120px;
+  }
+
+  .main-modal-content {
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .modal-text-con {
+    align-items: center !important;
+    width: 100%;
+  }
+
+  .m-d {
+    margin-left: 6% !important;
+  }
+
+  .modal-tags {
+    margin-left: 10%;
+  }
+}

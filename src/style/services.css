@@ -7,7 +7,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-items: center;
   min-height: 85vh;
   width: 100vw;
   background-color: rgb(32, 32, 32);
@@ -127,6 +126,16 @@ body {
   width: 45%;
 }
 
+@media screen and (max-width: 370px) {
+  .s-t-text-con ul {
+    padding-left: 25px !important;
+  }
+
+  .s-t-text-con {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .services ul {
     flex-direction: column;
@@ -134,5 +143,19 @@ body {
 
   .s-t-con {
     flex-direction: column;
+  }
+  
+  .services ul li {
+    width: 80% !important;
+  }
+
+  .skils-con {
+    width: auto !important;
+    padding: 20px;
+  }
+
+  .technologies-con {
+    width: auto !important;
+    padding: 20px;
   }
 }

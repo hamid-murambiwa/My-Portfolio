@@ -1,3 +1,5 @@
+import { Menu, MenuItem, MenuButton, SubMenu } from '@szhsin/react-menu';
+import '@szhsin/react-menu/dist/core.css';
 import img1 from '../../style/images/linkedin.png';
 import img2 from '../../style/images/github.png';
 import img3 from '../../style/images/twitter.png';
@@ -24,7 +26,7 @@ function Header() {
                 <a href="#services">Services</a>
               </li>
               <li>
-                <a href="#publications">Services</a>
+                <a href="#publications">Publications</a>
               </li>
               <li>
                 <a href="#projects">Projects</a>
@@ -40,7 +42,17 @@ function Header() {
               <a href="https://github.com/hamid-murambiwa/"><img src={img2} alt="Github icon" className="social-img" /></a>
             </div>
           </header>
-          <section className="title-con">
+          <header className="mobile-header">
+          <Menu className='menu-icon' menuButton={<MenuButton>&#9776;</MenuButton>}>
+            <MenuItem><a href="#header">Home</a></MenuItem>
+            <MenuItem><a href="#about">About</a></MenuItem>
+            <MenuItem><a href="#services">Services</a></MenuItem>
+            <MenuItem><a href="#publications">Publications</a></MenuItem>
+            <MenuItem><a href="#projects">Projects</a></MenuItem>
+            <MenuItem><a href="#contacts">Contact</a></MenuItem>
+          </Menu>
+          </header>
+          <section id="header" className="title-con">
             <div className="con">
               <div className="title-text">
                 <img src={img6} alt="My name" className="name-img" />

@@ -77,3 +77,9 @@
 .email-con h2 span {
   font-weight: 100;
 }
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 60vw;
+  }
+}

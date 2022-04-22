@@ -84,10 +84,21 @@
   margin-top: 20px;
 }
 
+@media screen and (max-width: 370px) {
+  .proj-img {
+    height: 95px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .grid {
         grid-template-columns: 80%;
         column-gap: 0;
         row-gap: 20px;
+    }
+
+    .proj-img {
+      height: 115px;
+      width: auto;
     }
 }

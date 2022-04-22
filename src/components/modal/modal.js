@@ -31,7 +31,7 @@ export default function Modal(props) {
               <img src={props.project.image} alt={props.project.name} className="modal-img" />
             </div>
             <div className="modal-text-con">
-            <p>{props.project.description}</p>
+            <p className="m-d">{props.project.description}</p>
             <div className="modal-tags">
             {props.project.tags.map(tag => (
                 <p>{tag}</p>

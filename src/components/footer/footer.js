@@ -37,7 +37,6 @@ function Footer() {
           <a href="https://github.com/hamid-murambiwa/"><img src={img2} alt="Github icon" className="social-img" /></a>
         </div>
       </section>
-
       </footer>
       <div className="copyright">
         <p>Developed by Hamid Murambiwa © copyright 2022.</p>

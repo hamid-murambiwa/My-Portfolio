@@ -1,3 +1,19 @@
+# Portfolio
+> This is my portfolio website.
+
+![an image of the portfolio mobile page  webpage](https://user-images.githubusercontent.com/71644515/164681031-ff9319fb-eab3-4f99-9d41-90adba125ccf.png)
+## Live Demo
+
+[Live Demo Link]()
+
+## Built With
+
+- React
+- JSX
+- CSS3
+- JavaScript
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +84,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Author
+
+👤 **Hamid Murambiwa**
+
+- GitHub: [@hamid-murambiwa](https://github.com/hamid-murambiwa/)
+- Twitter: [@Hamid87789454](https://twitter.com/Hamid87789454/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hamid-murambiwa/)
+
+## 🤝 Contributing
+
+>Contributions, issues, and feature requests are welcome!
+>Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+>Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Muhammad Munaf on Behance for the original design.
+- [Muhammad Munaf](https://www.behance.net/mmunaf) on Behance the author of the original design,
+
+## 📝 License
+
+>This project is [MIT](./MIT.md) licensed.

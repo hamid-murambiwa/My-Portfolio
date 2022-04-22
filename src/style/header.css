@@ -37,6 +37,10 @@ body {
   padding: 20px;
 }
 
+.mobile-header {
+  display: none;
+}
+
 .navigation {
   display: flex;
   flex-direction: row;
@@ -175,9 +179,27 @@ body {
   }
 }
 
+@media screen and (max-width: 370px) {
+  .name-img {
+    height: 70px;
+  }
+
+  .con h1 {
+    font-size: medium;
+  }
+
+  .s-t-text-con {
+
+  }  
+}
+
 @media screen and (max-width: 768px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .header-con {
+    min-height: 80vh;
   }
 
   .desk-header {
@@ -195,11 +217,52 @@ body {
   .con {
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    width: 100%;
+    padding-left: 50px;
+    width: auto;
   }
 
   .description {
     width: 200px !important;
+  }
+
+  .mobile-header {
+    display: flex;
+    position: fixed !important;
+    top: 20px;
+    right: 20px;
+  }
+
+  .szh-menu-button {
+    font-size: 24px !important;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  .szh-menu {
+    margin-top: 5px;
+    font-size: larger;
+    border-radius: 10px;
+    height: auto;
+    background-color: rgb(3, 47, 90);
+    width: 60vw;
+  }
+
+  .szh-menu a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+  }
+
+  .szh-menu li:hover {
+    background-color: rgb(195, 168, 69) !important;
+  }
+
+  .szh-menu li {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    padding: 15px 15px 15px 20px;
   }
 }

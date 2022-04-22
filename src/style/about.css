@@ -50,4 +50,15 @@
     .second-con {
       flex-direction: column;
     }
+
+    .about-img-con {
+      width: 100% !important;
+      padding: 0 !important;
+      margin: 40px;
+    }
+  
+    .about-text {
+      width: 80% !important;
+      padding: 0 25px 25px 25px !important;
+    }  
 }
