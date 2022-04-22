@@ -126,3 +126,13 @@ body {
 .technologies-con {
   width: 45%;
 }
+
+@media screen and (max-width: 768px) {
+  .services ul {
+    flex-direction: column;
+  }
+
+  .s-t-con {
+    flex-direction: column;
+  }
+}

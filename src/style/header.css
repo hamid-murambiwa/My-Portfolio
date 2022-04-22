@@ -174,3 +174,32 @@ body {
     transform: translateX(-100%);
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  .desk-header {
+    display: none;
+  }
+
+  .name-img {
+    height: 100px;
+  }
+
+  .title-con {
+    width: 100%;
+  }
+
+  .con {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    width: 100%;
+  }
+
+  .description {
+    width: 200px !important;
+  }
+}

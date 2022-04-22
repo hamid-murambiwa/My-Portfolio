@@ -19,7 +19,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 40vw;
   gap: 15px;
 }
 
@@ -66,6 +66,12 @@
   flex-direction: column;
   align-items: center;
   color: rgb(41, 92, 45);
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.email-con p {
+  margin: 0;
 }
 
 .email-con h2 span {

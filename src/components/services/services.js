@@ -12,7 +12,7 @@ function Services() {
         </div>
         <div className="services">
             <div className="s-text-con">
-              <h2>Services</h2>
+              <h2>&#11088; Services</h2>
             </div>
           <ul>
             <li>
@@ -56,7 +56,7 @@ function Services() {
         <section className="s-t-con">
           <div className='skils-con'>
             <div className='s-t-heading-con'>
-              <h2>Skills</h2>
+              <h2>&#11088; Skills</h2>
             </div>
             <div className='s-t-text-con'>
             <ul>
@@ -83,7 +83,7 @@ function Services() {
           </div>
           <div className='technologies-con'>
             <div className='s-t-heading-con'>
-              <h2>Technologies</h2>
+              <h2>&#11088; Technologies</h2>
             </div>
             <div className='s-t-text-con'>
             <ul>

@@ -21,7 +21,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 30% 30%;
+  grid-template-columns: 40% 40%;
   justify-content: center;
   column-gap: 40px;
   row-gap: 40px;
@@ -63,8 +63,9 @@
 .proj-img-con {
   display: flex;
   justify-content: center;
-  padding: 15px;
+  padding: auto;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .proj-info {
@@ -81,4 +82,12 @@
   justify-content: center;
   width: 100%;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 80%;
+        column-gap: 0;
+        row-gap: 20px;
+    }
 }

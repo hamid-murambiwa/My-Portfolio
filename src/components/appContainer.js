@@ -4,6 +4,7 @@ import About from './about/about';
 import Projects from './projects/projects';
 import Contact from './contact/contact';
 import Publication from './publication/publication';
+import Footer from './footer/footer';
 
 function AppContainer() {
     return (
@@ -14,6 +15,7 @@ function AppContainer() {
           <Publication />
           <Projects />
           <Contact />
+          <Footer />
         </div>
     );
 }

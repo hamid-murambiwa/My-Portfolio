@@ -7,7 +7,7 @@
 }
 
 .card-img {
-  height: 250px;
+  height: 200px;
   border-radius: 5px;
 }
 
@@ -38,4 +38,14 @@
 
 .card-text {
   padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .publication-card-con {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }

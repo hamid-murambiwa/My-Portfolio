@@ -10,7 +10,7 @@ function Contact() {
         <p>Let's connect!</p>
         <p>Email: <span>machipisajunior@gmail.com</span></p>
         <p>Cell: <span>+27659187764</span></p>
-        </div>
+      </div>
       <div className="form-con">
         <form className="form" action="https://formspree.io/f/xnqwgead" method="post">
             <input name="User" placeholder="Username" type="text" class="form-control" />

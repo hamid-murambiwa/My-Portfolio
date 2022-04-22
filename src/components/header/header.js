@@ -57,9 +57,9 @@ function Header() {
                 </a>
               </div>
               <div className="message-con">
-                  <p>
-                    Currently open to new work opportunities !
-                  </p>
+                <p>
+                  Currently open to new work opportunities !
+                </p>
               </div>
             </div>
           </section>
