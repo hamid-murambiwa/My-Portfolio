@@ -1,4 +1,4 @@
-import { Menu, MenuItem, MenuButton, SubMenu } from '@szhsin/react-menu';
+import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/core.css';
 import img1 from '../../style/images/linkedin.png';
 import img2 from '../../style/images/github.png';
