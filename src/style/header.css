@@ -223,8 +223,8 @@ body {
   .con {
     display: flex;
     flex-direction: column;
-    padding-left: 35px;
     width: 90%;
+    min-height: 100vh;
   }
 
   .description {
