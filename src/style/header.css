@@ -180,13 +180,18 @@ body {
   }
 }
 
+.sub-con {
+  padding-left: 40px;
+  width: 60%;
+}
+
 @media screen and (max-width: 400px) {
   .name-img {
     height: 70px;
   }
 
   .con {
-    padding-left: 20px !important;
+    padding-left: 0px !important;
   }
 
   .con h1 {
@@ -219,7 +224,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-left: 35px;
-    width: auto;
+    width: 90%;
   }
 
   .description {
