@@ -235,7 +235,7 @@ body {
 
   .szh-menu-button {
     font-size: 24px !important;
-    color: white;
+    color: white !important;
     background-color: transparent;
     border: 2px solid white;
     border-radius: 5px;
