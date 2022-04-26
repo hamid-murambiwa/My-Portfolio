@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
 }
 
 .header-con {
@@ -144,6 +144,7 @@ body {
 
 .message-con p {
   font-size: larger;
+  white-space: nowrap;
   color: rgb(235, 111, 56);
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
