@@ -185,13 +185,13 @@ body {
     height: 70px;
   }
 
+  .con {
+    padding-left: 20px !important;
+  }
+
   .con h1 {
     font-size: medium;
   }
-
-  .s-t-text-con {
-
-  }  
 }
 
 @media screen and (max-width: 768px) {
