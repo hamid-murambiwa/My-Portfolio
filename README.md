@@ -4,7 +4,7 @@
 ![an image of the portfolio mobile page  webpage](https://user-images.githubusercontent.com/71644515/164681031-ff9319fb-eab3-4f99-9d41-90adba125ccf.png)
 ## Live Demo
 
-[Live Demo Link](https://62629a7e74763512f7d332dc--magnificent-sawine-985139.netlify.app/)
+[Live Demo Link](https://development--magnificent-sawine-985139.netlify.app/)
 
 ## Built With
 
