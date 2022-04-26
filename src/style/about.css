@@ -54,7 +54,7 @@
     .about-img-con {
       width: 100% !important;
       padding: 0 !important;
-      margin: 40px;
+      margin: 40px 0 40px 0;
     }
   
     .about-text {
