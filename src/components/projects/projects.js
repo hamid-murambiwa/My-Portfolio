@@ -29,7 +29,7 @@ const projects = [
     live: 'https://development--enchanting-pithivier-4f097c.netlify.app/',
     github: 'https://github.com/hamid-murambiwa/IP-Address-Tracker',
     image: 'https://user-images.githubusercontent.com/71644515/166159411-9953ba4e-5ff7-47af-8111-371e247b08d6.png',
-    tags: ['Webpack', 'CSS', 'Javascript', 'HTML'],
+    tags: ['React', 'CSS', 'Javascript', 'HTML'],
     key: 2,
   },
   {
