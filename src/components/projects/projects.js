@@ -46,7 +46,7 @@ const projects = [
     name: 'Math magicians Project',
     description: 'Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. Javascript, React, CSS, and HTML were used for this project.',
     short_d: 'Math magicians" is a website for all fans of mathematics.',
-    live: 'https://62713481ccb7b6026b9001cb--dainty-sunflower-17208d.netlify.app/',
+    live: 'https://dev--dainty-sunflower-17208d.netlify.app/',
     github: 'https://github.com/hamid-murambiwa/Magic-Calculator',
     image: 'https://user-images.githubusercontent.com/71644515/166466491-1b361f8d-e7a8-4879-a2d9-1712c1cd6a9f.png',
     tags: ['React', 'CSS', 'Javascript', 'HTML'],
