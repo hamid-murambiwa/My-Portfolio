@@ -20,7 +20,7 @@ function Header() {
                 <a href="/" className="home">Home</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" onclick={window.location.href = '#about'}>About</a>
               </li>
               <li>
                 <a href="#services">Services</a>

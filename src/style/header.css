@@ -47,6 +47,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  z-index: 2;
 }
 
 .navigation li {
@@ -63,6 +64,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: medium;
+  cursor: pointer !important;
 }
 
 .navigation li a:hover {
