@@ -22,9 +22,9 @@
 }
 
 .n-img {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
+  height: 35%;
+  width: 35%;
+  border-radius: 10px;
 }
 
 .about-text {
