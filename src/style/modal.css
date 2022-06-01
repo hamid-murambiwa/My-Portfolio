@@ -15,9 +15,10 @@ body.active-modal {
 .overlay {
     background: rgba(49,49,49,0.8);
 }
+
 .modal-content {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
@@ -46,7 +47,7 @@ body.active-modal {
 }
 
 .modal-img {
-  height: 220px;
+  height: 40vh;
 }
 
 .modal-exit-btn {
@@ -103,6 +104,7 @@ body.active-modal {
   padding: 10px;
   border-radius: 10px;
   margin: 20px 20px 0;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 768px) {
@@ -110,6 +112,7 @@ body.active-modal {
     width: 70%;
     min-width: 100px;
   }
+
   .modal-img {
     height: 120px;
   }
@@ -130,5 +133,11 @@ body.active-modal {
 
   .modal-tags {
     margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .modal-img {
+    height: 15vh;
   }
 }

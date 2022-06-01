@@ -137,7 +137,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .services ul {
     flex-direction: column;
   }
@@ -158,5 +158,13 @@ body {
   .technologies-con {
     width: auto !important;
     padding: 20px;
+  }
+
+  .card {
+    width: auto !important;
+  }
+
+  .card-img {
+    height: 177px !important;
   }
 }
