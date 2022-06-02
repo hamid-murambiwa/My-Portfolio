@@ -46,7 +46,7 @@ const projects = [
     name: 'Metrics web app',
     description: 'This is a mobile web application to check a list of metrics (numeric values) and is built using React and Redux. Data is fetched from the TheDogApi, displayed and filtered on two pages. The web app has a home page and a details page.',
     short_d: 'This is a mobile web application to check a list of metrics (numeric values) and is built using React and Redux.',
-    live: 'https://622d9a1334cc7f237fa38cbe--confident-babbage-e8362d.netlify.app/',
+    live: 'https://confident-babbage-e8362d.netlify.app/',
     github: 'https://github.com/hamid-murambiwa/Metrics-web-app',
     image: 'https://user-images.githubusercontent.com/71644515/147221304-37df1997-d2eb-4076-be5e-5dbdbb957654.png',
     tags: ['React', 'Redux', 'CSS', 'Javascript'],
