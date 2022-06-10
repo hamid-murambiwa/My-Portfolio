@@ -60,18 +60,20 @@ function Header() {
               <div className="title-text">
                 <img src={img6} alt="My name" className="name-img" />
               </div>
+              </Fade>
               <div className="role">
                 <h1>Full Stack Developer</h1>
               </div>
+              <Fade left>
               <div className="description">
                 <p>I am a software enthusiast, I can help you develop web applications. Check out some of my work in the Projects section.  If you like what you see and have a project you need coded, don’t hesitate to contact me. I am very excited to work with you!</p>
               </div>
+              </Fade>
               <div className="button-con">
                 <a href="https://docs.google.com/document/d/1su_8dOXXbVWGEZI9DWnnnrtGnt0GFk-ZXmpCF097GYg/edit" className="button">
                   Get My Resume
                 </a>
               </div>
-              </Fade>
               <div className="message-con">
                 <p>
                   Currently open to new work opportunities !
