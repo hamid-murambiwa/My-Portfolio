@@ -74,7 +74,7 @@ function Projects() {
       <section className="projects-section">
         <div className="grid">
         {projects.map(project => (
-          <Fade left>
+          <Fade bottom>
           <div className="grid-item">
             <div className="card-title">
             <h2>{project.name}</h2>
