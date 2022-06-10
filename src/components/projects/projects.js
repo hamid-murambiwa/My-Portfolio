@@ -1,3 +1,4 @@
+import Fade from 'react-reveal/Fade';
 import Modal from '../modal/modal.js';
 import '../../style/projects.css';
 
@@ -73,6 +74,7 @@ function Projects() {
       <section className="projects-section">
         <div className="grid">
         {projects.map(project => (
+          <Fade left>
           <div className="grid-item">
             <div className="card-title">
             <h2>{project.name}</h2>
@@ -85,6 +87,7 @@ function Projects() {
             </div>
             <Modal project={project}/>
           </div>
+          </Fade>
         ))}
         </div>
         </section>

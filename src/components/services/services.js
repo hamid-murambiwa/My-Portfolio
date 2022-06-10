@@ -1,3 +1,4 @@
+import Fade from 'react-reveal/Fade';
 import img1 from '../../style/images/machine-learning.png';
 import img2 from '../../style/images/content.png';
 import img3 from '../../style/images/game-development.png';
@@ -15,6 +16,7 @@ function Services() {
               <h2>&#11088; Services</h2>
             </div>
           <ul>
+            <Fade bottom>
             <li>
               <div className="service-img-con">
                 <img src={img1} alt="Web Development" className="service-img" />
@@ -24,6 +26,8 @@ function Services() {
                 <p>I can write algorithms for website development features. I am familiar with hypothesis testing, data modeling, and mathematics.</p>
               </div>
             </li>
+          </Fade>
+          <Fade bottom>
             <li>
               <div className="service-img-con">
                 <img src={img2} alt="Web Development" className="service-img" />
@@ -33,6 +37,8 @@ function Services() {
                 <p>I write Software Documentation. Have a look at some of my published articles in the featured section.</p>
               </div>
             </li>
+          </Fade>
+          <Fade bottom>
             <li>
               <div className="service-img-con">
                 <img src={img3} alt="Web Development" className="service-img" />
@@ -42,6 +48,8 @@ function Services() {
                 <p>I have good skills in game development, mainly focusing on browser game applications.</p>
               </div>
             </li>
+            </Fade>
+            <Fade bottom>
             <li>
               <div className="service-img-con">
                 <img src={img4} alt="Web Development" className="service-img" />
@@ -51,6 +59,7 @@ function Services() {
                 <p>A good developer is a good designer, flexibility means more opportunities. I have elegant skills in UI/UX design.</p>
               </div>
             </li>
+            </Fade>
           </ul>
         </div>
         <section className="s-t-con">
@@ -58,6 +67,7 @@ function Services() {
             <div className='s-t-heading-con'>
               <h2>&#11088; Technologies</h2>
             </div>
+              <Fade bottom>
             <div className='s-t-text-con'>
             <ul>
               <li>JavaScript</li>
@@ -80,11 +90,13 @@ function Services() {
               <li>Heruko and Netlify Deployment</li>
             </ul>
             </div>
+            </Fade>
           </div>
           <div className='technologies-con'>
             <div className='s-t-heading-con'>
               <h2>&#11088; Skills</h2>
             </div>
+              <Fade bottom>
             <div className='s-t-text-con'>
             <ul>
               <li>Communication</li>
@@ -99,6 +111,7 @@ function Services() {
               <li>Professionalism</li>
             </ul>
             </div>
+            </Fade>
           </div>
         </section>
     </div>

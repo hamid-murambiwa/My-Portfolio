@@ -1,3 +1,4 @@
+import Fade from 'react-reveal/Fade';
 import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/core.css';
 import img1 from '../../style/images/linkedin.png';
@@ -55,6 +56,7 @@ function Header() {
           <section id="header" className="title-con">
             <div className="con">
               <div className="sub-con">
+              <Fade right>
               <div className="title-text">
                 <img src={img6} alt="My name" className="name-img" />
               </div>
@@ -69,6 +71,7 @@ function Header() {
                   Get My Resume
                 </a>
               </div>
+              </Fade>
               <div className="message-con">
                 <p>
                   Currently open to new work opportunities !

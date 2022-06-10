@@ -1,8 +1,10 @@
+import Fade from 'react-reveal/Fade';
 import '../../style/contact.css';
 
 function Contact() {
   return (
     <div id="contacts" className="contact-con">
+    <Fade bottom>
       <div className="heading-con">
         <h1>Contact</h1>
       </div>
@@ -21,6 +23,7 @@ function Contact() {
             </div>
         </form>
       </div>
+      </Fade>
     </div>
   );
 }

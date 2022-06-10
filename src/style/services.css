@@ -61,10 +61,12 @@ body {
   border-radius: 15px;
   height: auto;
   width: 20%;
-}
-
-.services ul li:hover {
-  transform: scale(1.05);
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-439539757578896-1;
 }
 
 .service-img {

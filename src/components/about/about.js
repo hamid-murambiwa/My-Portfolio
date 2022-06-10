@@ -1,3 +1,4 @@
+import Fade from 'react-reveal/Fade';
 import img1 from '../../style/images/me.jpeg';
 import img2 from '../../style/images/linkedin.png';
 import img3 from '../../style/images/github.png';
@@ -12,6 +13,7 @@ function About() {
             <h1>About</h1>
         </div>
       <div class='second-con'>
+    <Fade left>
       <div className="about-img-con">
       <img src={img1} alt="My name" className="n-img" />
       <div className="name-con">
@@ -47,6 +49,7 @@ function About() {
         </ul>
         </p>
       </div>
+    </Fade>
     </div>
     </div>
   );
