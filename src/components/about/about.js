@@ -14,9 +14,10 @@ function About() {
             <h1>About</h1>
         </div>
       <div class='second-con'>
-    <Fade left>
       <div className="about-img-con">
+      <Fade left>
       <img src={img1} alt="My name" className="n-img" />
+      </Fade>
       <div className="name-con">
         <h2>Hamid Murambiwa</h2>
       </div>
@@ -27,7 +28,6 @@ function About() {
         <a href="https://github.com/hamid-murambiwa/"><img src={img3} alt="Github icon" className="social-img" /></a>
       </div>
     </div>
-    </Fade>
     <Slide right>
       <div className="about-text">
         <p>
