@@ -15,7 +15,7 @@ function About() {
         </div>
       <div class='second-con'>
       <div className="about-img-con">
-      <Fade left>
+      <Fade bottom>
       <img src={img1} alt="My name" className="n-img" />
       </Fade>
       <div className="name-con">
@@ -28,7 +28,7 @@ function About() {
         <a href="https://github.com/hamid-murambiwa/"><img src={img3} alt="Github icon" className="social-img" /></a>
       </div>
     </div>
-    <Slide right>
+    <Slide bottom>
       <div className="about-text">
         <p>
           Hi! My name is Hamid. I am a student majoring in software development at Microverse Inc. I am interested in both front-end designing and back-end development. I have completed several web projects throughout my course. There, I designed and tested web pages and web applications.  Your team produces industry-leading products in web development, and I would love to be a part of your sustainable work culture. I’d love it if you went through my resume and considered me for an interview.
