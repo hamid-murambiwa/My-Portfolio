@@ -10,7 +10,7 @@ function Publication() {
         <h1>Publications</h1>
       </div>
       <div className="publication-card-con">
-      <Fade bottom>
+      <Fade left>
         <a href='https://medium.com/@machipisajunior/the-dos-and-don-ts-of-procrastination-6654446abdfa' className="card">
           <div className="card-img-con">
             <img src={img} alt="publication" className="card-img" />
@@ -21,7 +21,7 @@ function Publication() {
           </div>
         </a>
         </Fade>
-        <Fade bottom>
+        <Fade right>
         <a href='https://medium.com/@machipisajunior/my-experience-with-software-development-so-far-the-ups-and-downs-of-software-development-36f7220170aa' className="card">
           <div className="card-img-con">
             <img src={img2} alt="publication" className="card-img" />
