@@ -1,4 +1,6 @@
 import Slide from 'react-reveal/Slide';
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
 import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/core.css';
 import img1 from '../../style/images/linkedin.png';
@@ -14,7 +16,9 @@ function Header() {
         <div className="header-con">
           <header className="desk-header">
             <div className="header-logo">
+            <Zoom>
                 <img src={img5} alt="logo" className="logo" />
+            </Zoom>
             </div>
             <nav className="navigation">
               <li>
@@ -56,11 +60,11 @@ function Header() {
           <section id="header" className="title-con">
             <div className="con">
               <div className="sub-con">
-              <Slide right>
+              <Bounce right>
               <div className="title-text">
                 <img src={img6} alt="My name" className="name-img" />
               </div>
-              </Slide>
+              </Bounce>
               <div className="role">
                 <h1>Full Stack Developer</h1>
               </div>
