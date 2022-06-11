@@ -1,4 +1,4 @@
-import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/core.css';
 import img1 from '../../style/images/linkedin.png';
@@ -56,19 +56,19 @@ function Header() {
           <section id="header" className="title-con">
             <div className="con">
               <div className="sub-con">
-              <Fade right>
+              <Slide right>
               <div className="title-text">
                 <img src={img6} alt="My name" className="name-img" />
               </div>
-              </Fade>
+              </Slide>
               <div className="role">
                 <h1>Full Stack Developer</h1>
               </div>
-              <Fade left>
+              <Slide left>
               <div className="description">
                 <p>I am a software enthusiast, I can help you develop web applications. Check out some of my work in the Projects section.  If you like what you see and have a project you need coded, don’t hesitate to contact me. I am very excited to work with you!</p>
               </div>
-              </Fade>
+              </Slide>
               <div className="button-con">
                 <a href="https://docs.google.com/document/d/1su_8dOXXbVWGEZI9DWnnnrtGnt0GFk-ZXmpCF097GYg/edit" className="button">
                   Get My Resume
