@@ -238,6 +238,7 @@ body {
     position: fixed !important;
     top: 20px;
     right: 20px;
+    z-index: 2 !important;
   }
 
   .szh-menu-button {
