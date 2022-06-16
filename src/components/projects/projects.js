@@ -1,5 +1,10 @@
 import Modal from '../modal/modal.js';
-import '../../style/projects.css';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 const projects = [
   {
@@ -71,9 +76,18 @@ function Projects() {
         <h1>Projects</h1>
       </div>
       <section className="projects-section">
-        <div className="grid">
+      <Swiper
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={5}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
         {projects.map(project => (
-          <div className="grid-item">
+          <SwiperSlide>
             <div className="card-title">
             <h2>{project.name}</h2>
             </div>
@@ -84,9 +98,9 @@ function Projects() {
             <p>{project.short_d}</p>
             </div>
             <Modal project={project}/>
-          </div>
+          </SwiperSlide>
         ))}
-        </div>
+        </Swiper>
         </section>
     </div>
   );

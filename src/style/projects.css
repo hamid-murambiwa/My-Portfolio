@@ -5,7 +5,7 @@
   min-height: 100vh;
   background-color: rgb(32, 32, 32);
   padding-top: 30px;
-  width: 100vw;
+  width: 100%;
 }
 
 .projects-con h1 {
@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: rgb(253, 217, 91);
+  background-color: #fdd95b;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -50,7 +50,7 @@
   font-size: larger;
   font-weight: bolder;
   padding: 20px;
-  background-color: rgb(128, 65, 72);
+  background-color: #804148;
   color: white;
   border: none;
   border-top-left-radius: 5px;
