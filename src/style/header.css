@@ -83,7 +83,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 80vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .role {
