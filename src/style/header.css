@@ -103,6 +103,19 @@ body {
     blink-caret .75s step-end infinite;
 }
 
+.download-btn {
+  background-color: rgb(128, 65, 72);
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.download-btn:hover {
+  background-color: rgb(253, 217, 91);
+  color: rgb(128, 65, 72);
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -123,19 +136,6 @@ body {
 
 .button-con {
   margin-top: 50px;
-}
-
-.button {
-  text-decoration: none;
-  background-color: rgb(128, 65, 72);
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.button:hover {
-  background-color: rgb(253, 217, 91);
-  color: rgb(128, 65, 72);
 }
 
 .message-con {

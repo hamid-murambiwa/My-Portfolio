@@ -10,6 +10,7 @@ import img4 from '../../style/images/angelist.png';
 import img5 from '../../style/images/logo.svg';
 import img6 from '../../style/images/name.svg';
 import '../../style/header.css';
+import resume from '../../style/resume.pdf'
 
 function Header() {
     return (
@@ -74,8 +75,16 @@ function Header() {
               </div>
               </Slide>
               <div className="button-con">
-                <a href="https://docs.google.com/document/d/1su_8dOXXbVWGEZI9DWnnnrtGnt0GFk-ZXmpCF097GYg/edit" className="button">
-                  Get My Resume
+                <a
+                  href={resume}
+                  download="resume"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="button"
+                >
+                  <button className="download-btn">
+                    Download CV
+                  </button>
                 </a>
               </div>
               <div className="message-con">
