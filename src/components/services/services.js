@@ -16,7 +16,7 @@ function Services() {
               <h2>&#11088; Services</h2>
             </div>
           <ul>
-            <Fade bottom>
+            <Fade left>
             <li>
               <div className="service-img-con">
                 <img src={img1} alt="Web Development" className="service-img" />
@@ -27,7 +27,7 @@ function Services() {
               </div>
             </li>
           </Fade>
-          <Fade bottom>
+          <Fade left>
             <li>
               <div className="service-img-con">
                 <img src={img2} alt="Web Development" className="service-img" />
@@ -38,7 +38,7 @@ function Services() {
               </div>
             </li>
           </Fade>
-          <Fade bottom>
+          <Fade left>
             <li>
               <div className="service-img-con">
                 <img src={img3} alt="Web Development" className="service-img" />
@@ -49,7 +49,7 @@ function Services() {
               </div>
             </li>
             </Fade>
-            <Fade bottom>
+            <Fade left>
             <li>
               <div className="service-img-con">
                 <img src={img4} alt="Web Development" className="service-img" />
@@ -67,7 +67,7 @@ function Services() {
             <div className='s-t-heading-con'>
               <h2>&#11088; Technologies</h2>
             </div>
-              <Fade bottom>
+              <Fade left>
             <div className='s-t-text-con'>
             <ul>
               <li>JavaScript</li>
@@ -96,7 +96,7 @@ function Services() {
             <div className='s-t-heading-con'>
               <h2>&#11088; Skills</h2>
             </div>
-              <Fade bottom>
+              <Fade left>
             <div className='s-t-text-con'>
             <ul>
               <li>Communication</li>
