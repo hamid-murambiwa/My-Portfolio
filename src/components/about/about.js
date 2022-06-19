@@ -31,7 +31,7 @@ function About() {
     <Slide left>
       <div className="about-text">
         <p>
-          Hi! My name is Hamid. I am a student majoring in software development at Microverse Inc. I am interested in both front-end designing and back-end development. I have completed several web projects throughout my course. There, I designed and tested web pages and web applications.  Your team produces industry-leading products in web development, and I would love to be a part of your sustainable work culture. I’d love it if you went through my resume and considered me for an interview.
+          Hi! My name is Hamid. I am a software development graduate. I am interested in both front-end designing and back-end development. I have completed several web projects throughout my course at Microverse Inc. There, I designed and tested web pages and web applications.  Your team produces industry-leading products in web development, and I would love to be a part of your sustainable work culture. I’d love it if you went through my resume and considered me for an interview.
 
         <ul>
           <li>
