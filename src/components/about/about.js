@@ -1,5 +1,4 @@
 import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
 import img1 from '../../style/images/me.jpeg';
 import img2 from '../../style/images/linkedin.png';
 import img3 from '../../style/images/github.png';
@@ -28,7 +27,6 @@ function About() {
         <a href="https://github.com/hamid-murambiwa/"><img src={img3} alt="Github icon" className="social-img" /></a>
       </div>
     </div>
-    <Slide left>
       <div className="about-text">
         <p>
           Hi! My name is Hamid. I am a software development graduate. I am interested in both front-end designing and back-end development. I have completed several web projects throughout my course at Microverse Inc, an online bootcamp program for remote software developers. There, I designed and tested web pages and web applications.  Your team produces industry-leading products in web development, and I would love to be a part of your sustainable work culture. I’d love it if you went through my resume and considered me for an interview.
@@ -52,7 +50,6 @@ function About() {
         </ul>
         </p>
       </div>
-      </Slide>
     </div>
     </div>
   );
