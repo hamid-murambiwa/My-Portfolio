@@ -7,7 +7,7 @@ const projects = [
     description: 'A web application made with Ruby on Rails + React that allows users to book their favourite cruises and destinations',
     short_d: 'A simple app that allows users to reserve cruise ships to various locations',
     live: 'https://62ada1e5cf10dc0008911fa4--tangerine-basbousa-b21c1a.netlify.app/',
-    github: 'https://github.com/hamid-murambiwa',
+    github: 'https://github.com/hamid-murambiwa/sailvation-app-frontend',
     image: 'https://user-images.githubusercontent.com/71644515/174386958-c637b8be-a659-45a6-a9ff-f075159c9989.png',
     tags: ['Javascript', 'React', 'Ruby on rails', 'Ruby'],
     key: 0,
