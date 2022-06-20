@@ -1,8 +1,17 @@
 import Modal from '../modal/modal.js';
-import Fade from 'react-reveal/Fade';
 import '../../style/projects.css';
 
 const projects = [
+  {
+    name: 'Sailvation app',
+    description: 'A web application made with Ruby on Rails + React that allows users to book their favourite cruises and destinations',
+    short_d: 'A simple app that allows users to reserve cruise ships to various locations',
+    live: 'https://62ada1e5cf10dc0008911fa4--tangerine-basbousa-b21c1a.netlify.app/',
+    github: 'https://github.com/hamid-murambiwa',
+    image: 'https://user-images.githubusercontent.com/71644515/174386958-c637b8be-a659-45a6-a9ff-f075159c9989.png',
+    tags: ['Javascript', 'React', 'Ruby on rails', 'Ruby'],
+    key: 0,
+  },
   {
     name: 'Recipe App',
     description: 'The recipe app allows users to view various recipes & prepare good tasty meals.',
@@ -11,7 +20,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/Recipe-app',
     image: 'https://user-images.githubusercontent.com/71644515/169563249-239f2c2b-89f4-402a-b849-2141fb768766.png',
     tags: ['Ruby on rails', 'Postgresql', 'CSS', 'Ruby'],
-    key: 0,
+    key: 1,
   },
   {
     name: 'Math magicians Project',
@@ -21,7 +30,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/Magic-Calculator',
     image: 'https://user-images.githubusercontent.com/71644515/166466491-1b361f8d-e7a8-4879-a2d9-1712c1cd6a9f.png',
     tags: ['React', 'CSS', 'Javascript', 'HTML'],
-    key: 1,
+    key: 2,
   },
   {
     name: 'IP ADDRESS TRACKER',
@@ -31,17 +40,17 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/IP-Address-Tracker',
     image: 'https://user-images.githubusercontent.com/71644515/166159411-9953ba4e-5ff7-47af-8111-371e247b08d6.png',
     tags: ['React', 'CSS', 'Javascript', 'HTML'],
-    key: 2,
+    key: 3,
   },
   {
-    name: 'Conference page',
-    description: 'This is a conference page for a beer company, that has a home and an about me page. The page announces the next beer conference hosted by the company. Javascript, CSS, and HTML were used for this project.',
-    short_d: 'This is a conference page for a beer company, that has a home and an about me page.',
-    live: 'https://splendorous-granita-62d939.netlify.app',
-    github: 'https://github.com/hamid-murambiwa/JavaScript-capstone-project---Conference-page',
-    image: 'https://raw.githubusercontent.com/hamid-murambiwa/home-page-image/master/home-page.png',
-    tags: ['HTML', 'CSS', 'Javascript', 'NPM'],
-    key: 3,
+    name: 'Budget App',
+    description: 'This is a mobile web application, that allows you to manage your budget. The budget app lists all transactions associated with a category, and this allows the user to see how much money the user has spent.',
+    short_d: 'A simple budget app',
+    live: 'https://coolest-budget-app.herokuapp.com/',
+    github: 'https://github.com/hamid-murambiwa/Budget-App',
+    image: 'https://user-images.githubusercontent.com/71644515/171601517-12c276e2-dce2-4a2f-b0de-c7c321e5a552.png',
+    tags: ['Ruby on Rails', 'Postgresql', 'Ruby', 'Bootstrap'],
+    key: 4,
   },
   {
     name: 'Metrics web app',
@@ -51,7 +60,17 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/Metrics-web-app',
     image: 'https://user-images.githubusercontent.com/71644515/147221304-37df1997-d2eb-4076-be5e-5dbdbb957654.png',
     tags: ['React', 'Redux', 'CSS', 'Javascript'],
-    key: 4,
+    key: 5,
+  },
+  {
+    name: 'Conference page',
+    description: 'This is a conference page for a beer company, that has a home and an about me page. The page announces the next beer conference hosted by the company. Javascript, CSS, and HTML were used for this project.',
+    short_d: 'This is a conference page for a beer company, that has a home and an about me page.',
+    live: 'https://splendorous-granita-62d939.netlify.app',
+    github: 'https://github.com/hamid-murambiwa/JavaScript-capstone-project---Conference-page',
+    image: 'https://raw.githubusercontent.com/hamid-murambiwa/home-page-image/master/home-page.png',
+    tags: ['HTML', 'CSS', 'Javascript', 'NPM'],
+    key: 6,
   },
   {
     name: 'Space Hub',
@@ -61,7 +80,7 @@ const projects = [
     github: 'https://github.com/karelvanoordt/Rockets-GP',
     image: 'https://raw.githubusercontent.com/karelvanoordt/Rockets-GP/dev/space-1.png',
     tags: ['Webpack', 'CSS', 'Javascript', 'HTML'],
-    key: 5,
+    key: 7,
   },
 ];
 
@@ -74,7 +93,6 @@ function Projects() {
       <section className="projects-section">
         <div className="grid">
         {projects.map(project => (
-          <Fade left>
           <div className="grid-item">
             <div className="card-title">
             <h2>{project.name}</h2>
@@ -87,7 +105,6 @@ function Projects() {
             </div>
             <Modal project={project}/>
           </div>
-          </Fade>
         ))}
         </div>
         </section>
