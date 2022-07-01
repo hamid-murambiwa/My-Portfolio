@@ -1,3 +1,4 @@
+import Fade from 'react-reveal/Fade';
 import img from '../../style/images/name.svg';
 import img1 from '../../style/images/linkedin.png';
 import img2 from '../../style/images/github.png';
@@ -8,6 +9,7 @@ import '../../style/footer.css';
 function Footer() {
   return (
     <div className="footer-con">
+      <Fade left>
       <footer className="desk-footer">
       <section className="footer-title-con">
         <div className="title-text">
@@ -41,6 +43,7 @@ function Footer() {
       <div className="copyright">
         <p>Developed by Hamid Murambiwa © copyright 2022.</p>
       </div>
+      </Fade>
     </div>
   );
 }
