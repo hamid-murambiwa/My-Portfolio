@@ -13,9 +13,9 @@ function Contact() {
       </div>
       <div className="form-con">
         <form className="form" action="https://formspree.io/f/xnqwgead" method="post">
-            <input name="User" placeholder="Username" type="text" class="form-control" />
-            <input placeholder="Email Address" name="Email" id="email" type="email" class="form-control" />
-            <textarea name="message" rows="4" placeholder="Leave a Message" class="form-textarea"></textarea>
+            <input name="User" placeholder="Username" type="text" class="form-control" required />
+            <input placeholder="Email Address" name="Email" id="email" type="email" class="form-control" required />
+            <textarea name="message" rows="4" placeholder="Leave a Message" class="form-textarea" required></textarea>
             <div className="btn-submit-con">
             <button type="submit" class="contact-btn">Send Message</button>
             </div>
@@ -24,5 +24,5 @@ function Contact() {
     </div>
   );
 }
-
+required 
 export default Contact;
