@@ -3,6 +3,16 @@ import '../../style/projects.css';
 
 const projects = [
   {
+    name: 'Strut',
+    description: 'A simple app with an online store for furniture items',
+    short_d: 'A simple app with an online store for furniture items',
+    live: 'https://strutfurniture.netlify.app/',
+    github: 'https://github.com/hamid-murambiwa/Strut',
+    image: 'https://user-images.githubusercontent.com/71644515/178300073-a102aa44-31a8-4cf1-b0b4-71e9ecd51d4c.png',
+    tags: ['Javascript', 'React', 'Ruby on rails', 'Ruby'],
+    key: 0,
+  },
+  {
     name: 'Sailvation app',
     description: 'A web application made with Ruby on Rails + React that allows users to book their favourite cruises and destinations',
     short_d: 'A simple app that allows users to reserve cruise ships to various locations',
@@ -10,7 +20,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/sailvation-app-frontend',
     image: 'https://user-images.githubusercontent.com/71644515/174386958-c637b8be-a659-45a6-a9ff-f075159c9989.png',
     tags: ['Javascript', 'React', 'Ruby on rails', 'Ruby'],
-    key: 0,
+    key: 1,
   },
   {
     name: 'Recipe App',
@@ -20,7 +30,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/Recipe-app',
     image: 'https://user-images.githubusercontent.com/71644515/169563249-239f2c2b-89f4-402a-b849-2141fb768766.png',
     tags: ['Ruby on rails', 'Postgresql', 'CSS', 'Ruby'],
-    key: 1,
+    key: 2,
   },
   {
     name: 'Math magicians Project',
@@ -30,7 +40,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/Magic-Calculator',
     image: 'https://user-images.githubusercontent.com/71644515/166466491-1b361f8d-e7a8-4879-a2d9-1712c1cd6a9f.png',
     tags: ['React', 'CSS', 'Javascript', 'HTML'],
-    key: 2,
+    key: 3,
   },
   {
     name: 'IP ADDRESS TRACKER',
@@ -40,7 +50,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/IP-Address-Tracker',
     image: 'https://user-images.githubusercontent.com/71644515/166159411-9953ba4e-5ff7-47af-8111-371e247b08d6.png',
     tags: ['React', 'CSS', 'Javascript', 'HTML'],
-    key: 3,
+    key: 4,
   },
   {
     name: 'Budget App',
@@ -50,7 +60,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/Budget-App',
     image: 'https://user-images.githubusercontent.com/71644515/171601517-12c276e2-dce2-4a2f-b0de-c7c321e5a552.png',
     tags: ['Ruby on Rails', 'Postgresql', 'Ruby', 'Bootstrap'],
-    key: 4,
+    key: 5,
   },
   {
     name: 'Metrics web app',
@@ -60,7 +70,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/Metrics-web-app',
     image: 'https://user-images.githubusercontent.com/71644515/147221304-37df1997-d2eb-4076-be5e-5dbdbb957654.png',
     tags: ['React', 'Redux', 'CSS', 'Javascript'],
-    key: 5,
+    key: 6,
   },
   {
     name: 'Conference page',
@@ -70,7 +80,7 @@ const projects = [
     github: 'https://github.com/hamid-murambiwa/JavaScript-capstone-project---Conference-page',
     image: 'https://raw.githubusercontent.com/hamid-murambiwa/home-page-image/master/home-page.png',
     tags: ['HTML', 'CSS', 'Javascript', 'NPM'],
-    key: 6,
+    key: 7,
   },
   {
     name: 'Space Hub',
@@ -80,7 +90,17 @@ const projects = [
     github: 'https://github.com/karelvanoordt/Rockets-GP',
     image: 'https://raw.githubusercontent.com/karelvanoordt/Rockets-GP/dev/space-1.png',
     tags: ['Webpack', 'CSS', 'Javascript', 'HTML'],
-    key: 7,
+    key: 8,
+  },
+  {
+    name: 'Rock Paper Scissors',
+    description: "A simple rock paper scissors game",
+    short_d: 'A simple rock paper scissors game',
+    live: 'https://development--comfy-empanada-125d36.netlify.app/',
+    github: 'https://github.com/hamid-murambiwa/rock-paper-scissors-game',
+    image: 'https://user-images.githubusercontent.com/71644515/175320848-7d7d1b0c-2251-4522-aa04-fd653a24420b.png',
+    tags: ['React', 'CSS', 'Javascript'],
+    key: 9,
   },
 ];
 
