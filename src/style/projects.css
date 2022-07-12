@@ -41,6 +41,12 @@
   border-radius: 15px;
 }
 
+.grid-item:hover, .services ul li:hover, .s-t-text-con:hover, .card:hover {
+  background-color: rgba(84, 84, 84, 0.484);
+  border: 2px solid #fdd95b;
+  color: white !important;
+}
+
 .proj-img {
   height: 150px;
   border-radius: 10px;
