@@ -10,6 +10,8 @@ body {
   min-height: 85vh;
   width: 100%;
   background-color: rgb(32, 32, 32);
+  background-image: url('./images/pattern.png');
+  background-size: 10px 10px;
   padding-top: 50px;
 }
 

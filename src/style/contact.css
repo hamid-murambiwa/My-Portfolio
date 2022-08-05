@@ -2,6 +2,8 @@
   min-height: 60vh;
   width: 100%;
   background-color: rgb(39, 39, 39);
+  background-image: url('./images/zig.png');
+  background-size: 10px 10px;
   padding-bottom: 50px;
 }
 

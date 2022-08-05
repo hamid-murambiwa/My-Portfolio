@@ -1,6 +1,8 @@
 .about-con {
   min-height: 80vh;
   background-color: rgb(39, 39, 39);
+  background-image: url('./images/zig.png');
+  background-size: 10px 10px;
   width: 100%;
   color: white;
 }

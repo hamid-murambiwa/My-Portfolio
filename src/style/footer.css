@@ -5,6 +5,8 @@
   height: auto;
   width: 100%;
   background-color: rgb(39, 39, 39);
+  background-image: url('./images/pattern.png');
+  background-size: 10px 10px;
   color: white;
   font-size: 12px;
   padding-top: 70px;
