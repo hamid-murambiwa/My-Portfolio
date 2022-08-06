@@ -86,9 +86,10 @@ body.active-modal {
 .modal-tags p {
   background-color: rgb(111, 66, 251);
   border-radius: 10px;
-  padding: 10px;
+  padding: 6px;
   color: white;
-  margin: 10px 10px 0 0 !important;
+  margin: 15px 10px 0 0 !important;
+  font-size: xx-small;
 }
 
 .modal-link-btn-con {

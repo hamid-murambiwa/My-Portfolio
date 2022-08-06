@@ -122,6 +122,10 @@ body {
   border-radius: 15px;
 }
 
+.s-t-text-con ul {
+  padding-right: 15px;
+}
+
 .s-t-text-con ul li {
   list-style: none;
   margin-bottom: 3px;
@@ -144,6 +148,10 @@ body {
 @media screen and (max-width: 1200px) {
   .services ul {
     flex-direction: column;
+  }
+
+  .s-t-text-con ul {
+    padding-right: 5px;
   }
 
   .s-t-con {
