@@ -133,7 +133,7 @@ body {
 }
 
 .description {
-  width: 500px;
+  width: 650px;
 }
 
 .button-con {
@@ -142,7 +142,7 @@ body {
 
 .message-con {
   margin-top: 50px;
-  width: 100%;
+  width: 45vw;
   overflow: hidden;
 }
 

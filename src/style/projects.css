@@ -102,7 +102,7 @@
     .grid {
         grid-template-columns: 80%;
         column-gap: 0;
-        row-gap: 20px;
+        row-gap: 35px;
     }
 
     .proj-img {

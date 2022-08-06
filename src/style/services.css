@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .heading-con h1 {
@@ -118,7 +118,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: rgb(253, 217, 91);
-  padding: 20px;
+  padding: 10px;
   border-radius: 15px;
 }
 
@@ -133,11 +133,11 @@ body {
 
 @media screen and (max-width: 370px) {
   .s-t-text-con ul {
-    padding-left: 25px !important;
+    padding: 5% !important;
   }
 
   .s-t-text-con {
-    width: 95%;
+    width: auto;
   }
 }
 
