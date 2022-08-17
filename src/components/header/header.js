@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Slide from 'react-reveal/Slide';
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
@@ -9,10 +10,12 @@ import img3 from '../../style/images/twitter.png';
 import img4 from '../../style/images/angelist.png';
 import img5 from '../../style/images/logo.svg';
 import img6 from '../../style/images/name.svg';
+import img7 from '../../style/images/hamburger.png';
 import '../../style/header.css';
 import resume from '../../style/resume.pdf'
 
 function Header() {
+  const [isActive, setIsActive] = useState(false);
     return (
         <div className="header-con">
           <header className="desk-header">
@@ -49,7 +52,12 @@ function Header() {
             </div>
           </header>
           <header className="mobile-header">
-          <Menu className='menu-icon' menuButton={<MenuButton>&#9776;</MenuButton>}>
+          <Menu className='menu-icon' menuButton={
+          <MenuButton
+            onClick={() => { setIsActive(!isActive); }}
+          >
+            <img src={img7} className={isActive ? 'hamburger h-active' : 'hamburger h-inactive'} alt="hamburger" />
+          </MenuButton>}>
             <MenuItem><a href="#header">Home</a></MenuItem>
             <MenuItem><a href="#about">About</a></MenuItem>
             <MenuItem><a href="#services">Services</a></MenuItem>
